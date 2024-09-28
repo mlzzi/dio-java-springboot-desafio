@@ -1,7 +1,19 @@
 # Desafio Claro - Java com Spring Boot DIO
 Desafio de banco de dados Postgres em Java RESTful API
 
-## Diagrama de classes
+## Principais Tecnologias
+- **Java 17**
+- **Spring Boot 3**
+- **Spring Data JPA**
+- **OpenAPI (Swagger)**
+- **Railway**
+
+### Screenshot
+
+![](./referencia.png)
+#### Fonte: [https://dribbble.com/kaciodesign](https://dribbble.com/kaciodesign)
+
+## Diagrama de Classes (Domínio da API)
 
 ```mermaid
 classDiagram
@@ -41,3 +53,6 @@ classDiagram
     User "1" *-- "n" Investment
     User "1" *-- "n" Transaction
 ```
+## Link da Solução
+
+### [https://dio-java-springboot-desafio-production.up.railway.app/swagger-ui/index.html](https://dio-java-springboot-desafio-production.up.railway.app/swagger-ui/index.html)
